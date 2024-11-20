@@ -16,5 +16,19 @@ data.shift()
 
 let new_data = data.join()
 
+// console.log(data);
+// console.log(new_data);
+
+// slice
+// makes a new sallow copy of array and works on it
+// goes upto end value but do not print it
+let new_slice = data.slice(1,4)
+console.log(new_slice);
 console.log(data);
-console.log(new_data);
+
+// splice
+// works directly on original array
+// goes upto end value and also print it
+let new_splice = data.splice(1,4)
+console.log(new_splice);
+console.log(data);
