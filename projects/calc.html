@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addition</title>
+</head>
+<body>
+    <h1>Total of numbers</h1>
+    <form onsubmit="event.preventDefault(); printValue();">
+        <input type="number" id="num1" required>
+        <input type="number" id="num2" required>
+        <br>
+        <br>
+        <button type="submit">+</button>
+        <button type="submit">-</button>
+        <button type="submit">*</button>
+        <button type="submit">/</button>
+    </form>
+    <p id="output"></p>
+    <script src="calc.js"></script>
+</body>
+</html>
